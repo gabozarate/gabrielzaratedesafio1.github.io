@@ -10,10 +10,10 @@ while (product != 500 && product != 400 && product != 300) {
   } else if (product.toLowerCase().includes("accesorios")) {
     product = 300;
   } else {
-    product = prompt("INGRESE UN PRODUCTO VALIDO");
+    product = prompt("INGRESE UN PRODUCTO VALIDO: NEUMATICOS - LLANTAS - ACCESORIOS");
   }
 } 
-let state = prompt("INGRESE LA PROVINCIA DE DESTINO");
+let state = prompt("INGRESE LA PROVINCIA DE DESTINO (argentina)");
 
 while (
   state != 0 &&
@@ -62,7 +62,7 @@ while (
   ) {
     state = 3000;
   } else {
-    state = prompt("INGRESE UNA PROVINCIA VALIDA");
+    state = prompt("INGRESE UNA PROVINCIA VALIDA (arg)");
   }
 }
 let cant = parseInt(prompt("INGRESE LA CANTIDAD DE PRODUCTOS"));
